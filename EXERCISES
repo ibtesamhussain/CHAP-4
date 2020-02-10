@@ -857,11 +857,11 @@ subject = str(input('Enter subject: '))
 sender, recipient = sender.strip(), recipient.strip()
 subject = subject.title()
 print('From: {} \nTo: {} \nSubject: {}'.format(sender, recipient, subject))
-Enter your email: aalkhan@students.uit.edu
-Enter recipient's email: ahsan.akbar.83@gmail.com
+Enter your email: ibtesamhussain321@gmail.com
+Enter recipient's email: mhussain@students.uit.edu
 Enter subject: Hey, Sup?
-From: aalkhan@students.uit.edu 
-To: ahsan.akbar.83@gmail.com 
+From: ibtesamhussain321@gmail.com 
+To: mhussain@students.uit.edu 
 Subject: Hey, Sup?
 In [44]:
 def month(num): #4.22
@@ -910,7 +910,7 @@ How do you spell winner?
 I know, I know!
 A B E E R ! 
 And that's how you spell winner!
-Go Abeer!
+Go IBTESAM!
 In [58]:
 def vowelCount(string): #4.25
     string = string.lower()
@@ -923,8 +923,8 @@ def vowelCount(string): #4.25
         if char in 'aeiou':
             vowels[char] = string.count(char)
     print('a, e, i, o, and u apper, respectively, {}, {}, {}, {}, {} times'.format(vowels['a'], vowels['e'], vowels['i'], vowels['o'], vowels['u'],))
-vowelCount('Abeer Ali Khan')
-a, e, i, o, and u apper, respectively, 3, 2, 1, 0, 0 times
+vowelCount('IBTESAM HUSSAIN')
+a, e, i, o, and u apper, respectively, ........ times
 In [62]:
 def crypto(filename): #4.26 
     infile = open(filename, 'r')
